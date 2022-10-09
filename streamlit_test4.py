@@ -4,7 +4,8 @@ import numpy as np
 import pandas as pd
 import datetime
 
-mapbox_access_token = open(".mapbox_token").read()
+#mapbox_access_token = open(".mapbox_token").read()
+mapbox_access_token = st.secrets["mapbox_token"]
 
 st.set_page_config(
      page_title="Pronóstico Río Salado",
